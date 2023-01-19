@@ -1,0 +1,4 @@
+.header__language-link_status_active {
+    text-decoration: underline;
+    justify-self: flex-end;
+}

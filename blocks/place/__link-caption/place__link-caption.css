@@ -1,0 +1,8 @@
+.place__link-caption {
+    text-align: left;
+    line-height: 12px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #aaa;
+}

@@ -1,0 +1,13 @@
+.lead__image-caption {
+    line-height: 14px;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .lead__image-caption {
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,20 @@
+.intro__facts {
+    max-width: 690px;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__facts {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .intro__facts {
+        max-width: 288px;
+    }
+}

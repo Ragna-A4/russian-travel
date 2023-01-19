@@ -1,0 +1,28 @@
+.cover {
+    width: 92.5%;
+    background: url(../../images/railway-station.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        width: 100%;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .cover {
+        width: 100%;
+        margin-top: 69px;
+    }
+}
