@@ -5,6 +5,7 @@
     background-position: center;
     text-align: center;
     margin: 92px auto 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1279px) {

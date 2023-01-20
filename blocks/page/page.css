@@ -2,22 +2,20 @@
     background-color: #2a2c2f;
     color: #fff;
     font-family: 'Inter', 'Arial', sans-serif;
-    min-width: 1280px;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0;
     text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 1279px) {
     .page {
-        min-width: 1024px;
         max-width: 1279px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .page {
-        min-width: 768px;
         max-width: 1023px;
     }
 }
