@@ -1,5 +1,5 @@
 .transparent-link {
-    text-decoration: none;
+    opacity: 1;
   }
   
   .transparent-link:hover {
