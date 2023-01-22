@@ -9,3 +9,9 @@
     padding: 0;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .place__link-caption {
+        margin-left: 16px;
+    }
+}

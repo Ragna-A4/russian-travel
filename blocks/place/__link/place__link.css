@@ -5,3 +5,9 @@
     font-weight: 400;
     color: #fff;
 }
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .place__link {
+        margin-left: 16px;
+    }
+}

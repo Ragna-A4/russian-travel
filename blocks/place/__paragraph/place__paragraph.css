@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-.place-paragraph:last-of-type {
+.place__paragraph:last-child {
     margin-bottom: 0;
 }
 
@@ -15,5 +15,12 @@
     .place__paragraph {
         font-size: 16px;
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
