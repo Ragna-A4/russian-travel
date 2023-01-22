@@ -7,14 +7,11 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1023px) {
-    .place__paragraph {
-        font-size: 16px;
-        margin-bottom: 25px;
-    }
+.place-paragraph:last-of-type {
+    margin-bottom: 0;
 }
 
-@media screen and (max-width: 767px) and (min-width: 300px) {
+@media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
         margin-bottom: 25px;
